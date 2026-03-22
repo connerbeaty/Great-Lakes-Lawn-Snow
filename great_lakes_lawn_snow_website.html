@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Great Lakes Lawn & Snow</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #1e3a2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1598514982846-8c6d0c4f1b4a') center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .booking {
+      padding: 40px;
+      text-align: center;
+    }
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      background: #1e3a2f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #1e3a2f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Great Lakes Lawn & Snow</h1>
+  <p>Lawn Care • Snow Removal • Salting Services</p>
+</header>
+
+<section class="hero">
+  <h1>Your Property, Perfect Year-Round</h1>
+  <p>Professional lawn care and snow services across Metro Detroit</p>
+</section>
+
+<section class="services">
+  <div class="card">
+    <h3>Lawn Care</h3>
+    <p>Mowing, edging, and seasonal cleanups to keep your yard looking sharp.</p>
+  </div>
+  <div class="card">
+    <h3>Snow Removal</h3>
+    <p>Fast and reliable snow plowing for driveways and businesses.</p>
+  </div>
+  <div class="card">
+    <h3>Salting</h3>
+    <p>Ice management to keep your property safe during winter conditions.</p>
+  </div>
+</section>
+
+<section style="padding:50px 20px;background:#e8f0ec;">
+  <h2 style="text-align:center;">Service Areas</h2>
+  <p style="text-align:center; max-width:700px; margin:10px auto 30px;">Proudly serving homeowners and businesses across Oakland & Macomb County with fast, reliable service.</p>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; max-width:900px; margin:0 auto;">
+    <div>
+      <h3>Oakland County</h3>
+      <p>Bloomfield Hills<br>
+      Birmingham<br>
+      Royal Oak<br>
+      Northville<br>
+      Commerce Township<br>
+      West Bloomfield<br>
+      Troy<br>
+      Rochester</p>
+    </div>
+
+    <div>
+      <h3>Macomb County</h3>
+      <p>Grosse Pointe<br>
+      St. Clair Shores<br>
+      Sterling Heights<br>
+      Macomb<br>
+      Shelby Township</p>
+    </div>
+  </div>
+
+  <p style="text-align:center; margin-top:30px; font-weight:bold;">✔ Same-day and priority service available in select areas</p>
+</section>
+
+<section style="padding:50px 20px; background:#ffffff;">
+  <h2 style="text-align:center;">What Our Customers Are Saying</h2>
+  <p style="text-align:center; max-width:700px; margin:10px auto 30px;">Here’s what customers across Metro Detroit are saying about Great Lakes Lawn & Snow.</p>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; max-width:1100px; margin:0 auto;">
+    <div class="card">
+      <h3>★★★★★</h3>
+      <p>“Great Lakes Lawn & Snow did an amazing job on my yard. Super professional and showed up exactly when they said they would. Highly recommend!”</p>
+      <strong>— Jake M., Northville</strong>
+    </div>
+    <div class="card">
+      <h3>★★★★★</h3>
+      <p>“I used them for snow removal this winter and they were a lifesaver. My driveway was cleared early every morning before work.”</p>
+      <strong>— Sarah T., Troy</strong>
+    </div>
+    <div class="card">
+      <h3>★★★★★</h3>
+      <p>“Very fair pricing and great communication. The salting service kept my property safe all season.”</p>
+      <strong>— Mike R., Sterling Heights</strong>
+    </div>
+    <div class="card">
+      <h3>★★★★★</h3>
+      <p>“Fast, reliable, and the lawn looked perfect after every visit. Definitely sticking with them long-term.”</p>
+      <strong>— Emily K., Birmingham</strong>
+    </div>
+    <div class="card">
+      <h3>★★★★★</h3>
+      <p>“They actually care about their work. You can tell they take pride in what they do.”</p>
+      <strong>— Brandon L., Commerce Township</strong>
+    </div>
+  </div>
+</section>
+
+<section style="padding:40px 20px; text-align:center; background:#1e3a2f; color:white;">
+  <h2>Customer Service</h2>
+  <p style="font-size:20px; font-weight:bold;">Call us: (248) 555-0198</p>
+  <p>Email: info@greatlakeslawnsnow.com</p>
+  <p style="font-size:13px; opacity:0.85; margin-top:15px;">This website is a student project. Reviews and contact details are for demonstration purposes only.</p>
+</section>
+
+<section class="booking">
+  <h2>Book a Service</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Email" required><br>
+    <textarea placeholder="What service do you need?"></textarea><br>
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Great Lakes Lawn & Snow</p>
+</footer>
+
+</body>
+</html>
