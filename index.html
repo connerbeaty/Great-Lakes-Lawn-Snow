@@ -19,11 +19,17 @@
     }
 
     header {
-      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
-      color: white;
       text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                  url('lawn.jpg') center/cover no-repeat;
+      color: white;
       padding: 100px 20px;
+    }
+
+    header img {
+      max-width: 250px;
+      display: block;
+      margin: 0 auto 20px;
     }
 
     header h1 {
@@ -86,6 +92,12 @@
       text-align: center;
     }
 
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
     .about, .contact {
       background: white;
       border-radius: 12px;
@@ -117,6 +129,7 @@
   </nav>
 
   <header>
+    <img src="logo.png" alt="Great Lakes Lawn & Snow Logo">
     <h1>Great Lakes Lawn & Snow</h1>
     <p>Reliable Lawn Care and Snow Removal Across Metro Detroit</p>
     <a href="#contact" class="btn">Request a Quote</a>
@@ -125,8 +138,14 @@
   <section id="services">
     <h2>Our Services</h2>
     <div class="services">
-      <div class="card">Lawn Mowing</div>
-      <div class="card">Snow Plowing</div>
+      <div class="card">
+        <img src="lawn.jpg" alt="Lawn Mowing">
+        <h3>Lawn Mowing</h3>
+      </div>
+      <div class="card">
+        <img src="snow.jpg" alt="Snow Plowing">
+        <h3>Snow Plowing</h3>
+      </div>
       <div class="card">Salting</div>
       <div class="card">Mulching</div>
       <div class="card">Spring Cleanup</div>
